@@ -2,7 +2,7 @@ import requests
 import pygal
 from pygal.style import LightColorizedStyle as LCS, LightenStyle as LS
 
-url = 'https://api.github.com/search/repositories?q=language:Go&sort=stars'
+url = 'https://api.github.com/search/repositories?q=language:Python&sort=stars'
 r = requests.get(url)
 print('Status code:', r.status_code)
 
@@ -60,10 +60,10 @@ my_config.width = 1000
 
 
 chart = pygal.Bar(my_config, style=my_style)
-chart.title = 'Most-Starred Go Projects on GITHUB'
+chart.title = 'Most-Starred Python Projects on GITHUB'
 chart.x_labels = names
 
 
 chart.add('', plot_dicts)
-chart.render_to_file('Go.svg')
+chart.render_to_file('python_repos.svg')
 
