@@ -34,11 +34,9 @@ my_config.truncate_label = 15
 my_config.show_y_guides = False
 my_config.width = 1000
 
-
 chart = pygal.Bar(my_config, style=my_style)
 chart.title = 'Comparison of most star projects in different languages on GITHUB'
 chart.x_labels = language_list
-
 
 chart.add('', plot_dicts)
 chart.render_to_file('Comparison of most star projects in different languages on GITHUB.svg')
