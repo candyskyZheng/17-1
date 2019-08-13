@@ -4,8 +4,8 @@
 ![image](https://github.com/candyskyZheng/17-1/blob/master/images/Compare.png)
 # 
 ### Python项目的受欢迎程度
-#### 星最多的Python项目
-(https://github.com/vinta/awesome-python)
+#### 星最多的Python项目https://github.com/vinta/awesome-python
+
 ![image](https://github.com/candyskyZheng/17-1/blob/master/images/Python.png)
 ![image](https://github.com/candyskyZheng/17-1/blob/master/images/Go.png)
 ![image](https://github.com/candyskyZheng/17-1/blob/master/images/C.png)
