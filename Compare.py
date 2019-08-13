@@ -4,7 +4,6 @@ import requests
 import pygal
 from pygal.style import LightColorizedStyle as LCS, LightenStyle as LS
 
-
 language_list = ['Python','C','JavaScript','Java','Ruby','Go','Perl','Haskell']
 plot_dicts = []
 for language in language_list:
